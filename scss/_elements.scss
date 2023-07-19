@@ -1,0 +1,32 @@
+a {
+  color: lightgrey;
+}
+
+p {
+  color: grey;
+}
+
+h2 {
+  color: lightgrey;
+  text-decoration: none !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $bg-dark;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #25a9d4;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

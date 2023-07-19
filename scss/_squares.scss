@@ -1,0 +1,59 @@
+.title {
+  padding-top: 40px;
+  @include lg { 
+    display: block;
+    padding: 0px $gap * 2;
+    padding-top: 20px;
+  }
+}
+.square {
+  flex-wrap: wrap;
+  gap: $gap;
+  padding: 40px 0px;
+  display: block;
+  @include lg { 
+    display: block;
+    padding: 0px $gap * 2;
+  }
+  .square-item {
+    color: lightgrey;
+    height: 300px;
+    width: 100%;
+    flex-direction: row;
+    text-align: center;
+    background: black;
+    @include lg { 
+      height: auto;
+      min-width: 100%;
+      flex-direction: column;
+    }
+    &:nth-of-type(even) {
+      flex-direction: row-reverse;
+      @include lg { 
+				flex-direction: column;
+			}
+    }
+    .thumbnail {
+      display: block;
+      min-width: 48%;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      flex: 1;
+      @include lg { 
+        height: 300px;
+        flex: auto;
+      }
+    }
+    .description {
+      padding: 40px 80px;
+      height: auto;
+      flex: 0 1 auto;
+    }
+  }
+}
+
+
+

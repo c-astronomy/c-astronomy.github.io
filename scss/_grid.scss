@@ -1,0 +1,15 @@
+.flex {
+    display: flex;
+    gap: $gap;
+    &.row { flex-direction: row; }
+    &.column { flex-direction: column; }
+    &.space-between { justify-content: space-between; }
+    &.space-around { justify-content: space-around; }
+    &.start { justify-items: start; }
+    &.end { justify-content: end; text-align: right; } 
+    &.center { justify-content: center; }
+    &.middle { align-items: center; }
+}
+.row { 
+    width: 100%; 
+}

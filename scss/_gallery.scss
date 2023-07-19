@@ -1,0 +1,23 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  @include lg { 
+    height: auto;
+    margin-bottom: $gap;
+  }
+}
+
+.gallery-item {
+  width: 20%;
+  height: 200px;
+  display: block;
+  background: black;
+  background-size: cover;
+  object-fit: fill;
+  @include lg { 
+    width: 50%;
+  }
+}

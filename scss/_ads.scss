@@ -1,0 +1,30 @@
+.mobile-ads {
+    display: none;
+    width: 100%;
+    height: 180px;
+    background: green;
+  }
+  
+  .ads {
+    display:none;
+    position: fixed;
+    z-index: 100;
+    top: 50%;
+    transform: translatey(-50%);
+    height: 600px;
+    width: 300px;
+    background: green;
+  /* 
+    background: url('./assets/rosette.webp');
+    object-fit: scale-down; */
+  }
+  
+  .ads-left {
+    left: 40px;
+    background: url('assets/imgweb-hosting-300x600-1672822550994.png');
+  
+  }
+  
+  .ads-right {
+    right: 40px;
+  }

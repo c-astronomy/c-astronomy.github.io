@@ -1,0 +1,95 @@
+.header {
+	position: relative;
+	padding: 80px $gap;
+	width: 100%;
+
+	.branding {
+		position: relative;
+		width: 100%;
+		text-align: center;
+		display: inline-flex;
+		justify-content: space-around;
+		align-items: center;
+		.logo {
+			margin: 10px;
+			padding: 10px;
+			border: 1px solid black;
+			text-decoration: none;
+			color: lightgrey;
+			border-color: lightgrey;
+		}
+	}
+
+	.menu {
+		top: $gap;
+		@include lg { 
+			display: none;
+			&.visible {
+				display: block;
+			}
+		}
+		.menu-content {
+			@include lg { 
+				border-top: 1px solid rgba(255,255,255,0.02);
+				flex-direction: column;
+				text-align: center;
+				gap: 0px;
+			}
+		}
+		.menu-item {
+			position: relative;
+			cursor: pointer;
+			padding: 10px;
+			@include lg { 
+				border-bottom: 1px solid rgba(255,255,255,0.02);
+				padding: 20px;
+			}
+			
+			&:after {
+				position: absolute;
+				content: '';
+				left: 0;
+				bottom: 0;
+				display: block;
+				height: 2px;
+				width: 0%;
+				background-color: $white;
+				transition: all 0.5s ease;
+			}
+			&:hover:after {
+				width: 100%;
+				@include lg { 
+					width: 20%;
+				}
+			}
+			&.active {
+				&:after {
+					width: 100%;
+					@include lg { 
+						width: 0px;
+					}
+				}
+			}
+			a {
+				text-decoration: none;
+			}
+		}
+	}
+}
+#menu-mobile {
+	display: none;
+	cursor: pointer;
+	position: absolute;
+	left: $gap;
+	@include lg { 
+        display: block;
+    }
+	&::after {
+		display: block;
+		content: '\2630';
+		font-size: 28px;
+		color: #fff;
+		align-items: flex-start;
+		text-align: right;
+	}
+}
