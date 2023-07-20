@@ -14,9 +14,9 @@
     height: 600px;
     width: 300px;
     background: green;
-  /* 
+   
     background: url('./assets/rosette.webp');
-    object-fit: scale-down; */
+    object-fit: scale-down; 
   }
   
   .ads-left {
@@ -27,4 +27,5 @@
   
   .ads-right {
     right: 40px;
+    background: url('assets/imgweb-hosting-300x600-1672822550994.png');
   }
