@@ -11,12 +11,12 @@
 }
 
 .gallery-item {
-  width: 20%;
+  width: 100%;
   height: 200px;
   display: block;
   background: black;
   background-size: cover;
-  object-fit: fill;
+  object-fit: scale-down;
   @include lg { 
     width: 50%;
   }
