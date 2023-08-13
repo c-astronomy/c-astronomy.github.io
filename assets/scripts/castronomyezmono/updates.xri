@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xri version="1.0">
+  <description>
+     <p>
+        CAstronomy Updates — The main Script repository at CAstronomy.
+     </p>
+  </description>
+   <platform os="all" arch="noarch" version="1.6.9:2.0.0">
+      <package fileName="CAstronomyEz.zip"
+               sha1="b664b010a80d5adba89c9aad9ba989d26364f623"
+               type="script"
+               releaseDate="20230813">
+         <title>
+            CAstronomyEz script - 2023 Aug 13
+         </title>
+         <remove>
+            doc
+         </remove>
+         <description>
+            <p>
+               This update installs a script that automates the editing process.
+            </p>
+            <p>
+               The script is a work in progress. 
+                If you want to support me, please consider following my social media or make a small donation:
+            </p>
+            <p>
+                https://c-astronomy.github.io/
+            </p>
+            <p>
+               Copyright (c) 2023 CAstronomy All Rights Reserved.
+            </p>
+         </description>
+      </package>
+   </platform>
+</xri>
