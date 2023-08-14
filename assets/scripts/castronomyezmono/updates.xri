@@ -7,7 +7,7 @@
   </description>
    <platform os="all" arch="noarch" version="1.6.9:2.0.0">
       <package fileName="CAstronomyEz.zip"
-               sha1="bc34ff5d8f7a3ead7c8dc8db9d415266b7068671"
+               sha1="4c0f253834752eb75129328492573086eaff4f94"
                type="script"
                releaseDate="20230814">
          <title>
