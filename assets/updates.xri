@@ -1,0 +1,1621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xri version="1.0" xmlns="http://www.pixinsight.com/xri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pixinsight.com/xri http://pixinsight.com/xri/xri-1.0.xsd">
+   <package fileName="20220620-script.zip" sha1="fefab788ea8ef6f5079311001507c81e112cc99a" type="script" repo="https://pixinsight.com/update/1.8.9-1/" releaseDate="20220620" installDate="20230729112906" remove="src/scripts/CorrectMagentaStars" title="CorrectMagentaStars script version 1.3 (update)">
+      <description>
+         <p>
+            This package installs a new version of the CorrectMagentaStars script, written by Roberto Sartori and Edoardo Luca Radice. This is an update release for PixInsight 1.8.9-1:
+         </p>
+         <ul>
+            <li>
+               Added &quot;Preserve Lightness&quot; checkbox.
+               <br/>
+               
+            </li>
+         </ul>
+         <p>
+            ________________________________________________________________
+         </p>
+         <p>
+            Copyright © 2019-2022 Roberto Sartori / Edoardo Luca Radice
+            <br/>
+            Copyright © 2019-2022 Pleiades Astrophoto
+         </p>
+      </description>
+   </package>
+   <package fileName="20220907-2-script.zip" sha1="c98126e58fcf673c378d815dedb1a6fca505e2a8" type="script" repo="https://pixinsight.com/update/1.8.9-1/" releaseDate="20220907" installDate="20230729112906" remove="src/scripts/PatternCorrection" title="LinearDefectDetection/LinearPatternSubtraction scripts version 1.02 (update/bugfix)">
+      <description>
+         <p>
+            This package installs a new version of the pattern correction scripts written by Vicent Peris (LinearDefectDetection and LinearPatternSubtraction). This is a cumulative update/bugfix release for PixInsight 1.8.9-1:
+         </p>
+         <ul>
+            <li>
+               The scripts are now featured in a dedicated Pattern Correction section under the Script main menu item.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: custom postfix value was not set before executing LPS engine.
+               <br/>
+               
+            </li>
+            <li>
+               PixInsight core 1.8.8-8 requirement check updated.
+               <br/>
+               
+            </li>
+            <li>
+               LinearPatternSubtraction: Bugfix: undefined lines.columnOrRow property:
+               <br/>
+               https://gitlab.com/pixinsight/PJSR/-/merge_requests/225
+               <br/>
+               
+            </li>
+         </ul>
+         <p>
+            ________________________________________________________________
+         </p>
+         <p>
+            Copyright © 2019-2022 Vicent Peris (OAUV)
+            <br/>
+            Copyright © 2019-2022 Pleiades Astrophoto
+         </p>
+      </description>
+   </package>
+   <package fileName="20221121-windows-x64-module.zip" sha1="9cc5bbd2a3ff933ade08307c978035c2570ba7da" type="module" repo="https://pixinsight.com/update/1.8.9-1/" releaseDate="20221121" installDate="20230729112906" title="New SpectrophotometricColorCalibration tool (SPCC) (update)">
+      <description>
+         <p>
+            This package installs new versions of the standard APASS, ColorCalibration, ColorSpaces, Gaia and ImageRegistration modules for PixInsight core version 1.8.9-1. This is a historical update where we release the new SpectrophotometricColorCalibration tool (SPCC). See the official announcement on PixInsight Forum for complete information:
+         </p>
+         <p>
+            https://pixinsight.com/forum/index.php?threads/new-tool-released-spectrophotometriccolorcalibration-spcc.19599/
+         </p>
+         <p>
+            Copyright © 2022 Pleiades Astrophoto S.L. All Rights Reserved.
+         </p>
+      </description>
+   </package>
+   <package fileName="20221205-2-windows-x64-module.zip" sha1="7c9a7b8f7cd84cfa8e1666f7aea93baabac85da8" type="module" repo="https://pixinsight.com/update/1.8.9-1/" releaseDate="20221205" installDate="20230729112906" title="PixelMath module version 1.9.3 (bugfix)">
+      <description>
+         <p>
+            This package installs a new version of the standard PixelMath tool for PixInsight core version 1.8.9-1. Version 1.9.3 is a bugfix release:
+         </p>
+         <ul>
+            <li>
+               Bugfix: PixelMath: Fixed a potential crash when a new instance is imported in the PixelMath window while there is a text selection defined in one or more code editors.
+               <br/>
+               
+            </li>
+         </ul>
+         <p>
+            Copyright © 2022 Pleiades Astrophoto S.L. All Rights Reserved.
+         </p>
+      </description>
+   </package>
+   <package fileName="20221224-windows-x64-module.zip" sha1="9610c20046ed30eefd93085e8654d592bd8ff8f5" type="module" repo="https://pixinsight.com/update/1.8.9-1/" releaseDate="20221224" installDate="20230729112906" title="Update to several modules dependent on PSF evaluation (bugfix)">
+      <description>
+         <p>
+            This package installs new versions of the standard ColorCalibration, Debayer, Image, ImageCalibration, ImageIntegration and SubframeSelector modules for PixInsight core version 1.8.9-1. This is a bugfix release:
+         </p>
+         <ul>
+            <li>
+               Bugfix: Elliptical point spread functions not fitted correctly in some cases. See the original bug report:
+               <br/>
+               https://pixinsight.com/forum/index.php?threads/dynamicpsf-gives-wrong-values-in-1-8-9-1.19898/
+               <br/>
+               
+            </li>
+         </ul>
+         <p>
+            Copyright © 2022 Pleiades Astrophoto S.L. All Rights Reserved.
+         </p>
+      </description>
+   </package>
+   <package fileName="20221226-2-resource.zip" sha1="0bf199ea363ca22032b1218c309bc40fd70c31b7" type="resource" repo="https://pixinsight.com/update/1.8.9-1/" releaseDate="20221226" installDate="20230729112906" title="SPCC Filters Database (update)">
+      <description>
+         <p>
+            This package installs a new version of the default filters database for the SpectrophotometricColorCalibration in PixInsight 1.8.9-1. The new version includes more filters and combinations of existing RGB filters and digital camera spectral response curves with popular light pollution filters.
+         </p>
+         <p>
+            ________________________________________________________________
+         </p>
+         <p>
+            Copyright © 2022 Pleiades Astrophoto.
+         </p>
+      </description>
+   </package>
+   <package fileName="20230103-windows-x64-module.zip" sha1="f6112ad597765e98732a05aeab468e54c2641990" type="module" repo="https://pixinsight.com/update/1.8.9-1/" releaseDate="20230103" installDate="20230729112906" title="RAW file format support module version 1.6.0 (update)">
+      <description>
+         <p>
+            This package installs a new version of the standard RAW file format support module for PixInsight core version 1.8.9-1. This is an update release:
+         </p>
+         <ul>
+            <li>
+               Update: RAW module built with the latest LibRaw 0.21.0 Release version. See the official LibRaw announcement blog post for detailed information:
+               <br/>
+               https://www.libraw.org/news/libraw-0-21-release
+               <br/>
+               
+            </li>
+         </ul>
+         <p>
+            Copyright © 2006-2023 Pleiades Astrophoto S.L. All Rights Reserved.
+            <br/>
+            Copyright © 2008-2023 LibRaw LLC
+            <br/>
+            
+         </p>
+      </description>
+   </package>
+   <package fileName="20230103-script.zip" sha1="1f4ccce6c797987dbe169c09221a3c3c62cef506" type="script" repo="https://pixinsight.com/update/1.8.9-1/" releaseDate="20230103" installDate="20230729112906" remove="src/scripts/MakefileGenerator" title="MakefileGenerator script version 1.128 (update/bugfix)">
+      <description>
+         <p>
+            This package installs a new version of the standard MakefileGenerator script for PixInsight 1.8.9-1. Version 1.128 is an update/bugfix release:
+         </p>
+         <ul>
+            <li>
+               Update: The default macOS SDK version is now 13.1 (macOS Ventura).
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: Correctly check for relative directory paths on Windows. Original bug report and fix:
+               <br/>
+               https://pixinsight.com/forum/index.php?threads/building-pcl-on-windows.18879/#post-114635
+               <br/>
+               
+            </li>
+         </ul>
+         <p>
+            Copyright © 2009-2023 Pleiades Astrophoto
+            <br/>
+            
+         </p>
+      </description>
+   </package>
+   <package fileName="20230113-resource.zip" sha1="42527eabb49d432836eb187ed8589ad795f4f80d" type="resource" repo="https://pixinsight.com/update/1.8.9-1/" releaseDate="20230113" installDate="20230729112906" title="Certified developers database (update)">
+      <description>
+         <p>
+            This package installs a cumulative update to the certified developers database for PixInsight 1.8.9-1. New certified PixInsight developer:
+         </p>
+         <ul>
+            <li>
+               Juergen Ehnes
+               <br/>
+               https://astrojuergen.eu/
+               <br/>
+               
+            </li>
+            <li/>
+         </ul>
+         <p>
+            ________________________________________________________________
+         </p>
+         <p>
+            Copyright © 2003-2022 Pleiades Astrophoto.
+         </p>
+      </description>
+   </package>
+   <package fileName="20230122-windows-x64-module.zip" sha1="9c7d81439e59085b223248f19de279676dfe4e3a" type="module" repo="https://pixinsight.com/update/1.8.9-1/" releaseDate="20230122" installDate="20230729112906" title="CometAlignment module version 1.3.5 (update)">
+      <description>
+         <p>
+            This package installs a new version of the standard CometAlignment module for PixInsight core version 1.8.9-1. Version 1.3.5 is an update release:
+         </p>
+         <ul>
+            <li>
+               Support for nonlinear comet paths (curved or irregular trajectories). The user can now select arbitrary fixed frames where the comet position can be defined interactively.
+               <br/>
+               
+            </li>
+            <li>
+               CometAlignment can now be applied to unregistered frames, avoiding double interpolations. This is possible thanks to the possibility of defining the comet nucleus position on individual frames.
+               <br/>
+               
+            </li>
+            <li>
+               Comet nucleus centroids are now calculated by optimal PSF fitting. This leads to a significant improvement in registration accuracy, which in turn improves resolution and SNR in the resulting integrated images.
+               <br/>
+               
+            </li>
+            <li>
+               Generation of comet path masks. These masks represent comet positions measured on the set of input frames and can be used directly as masks to inspect the comet&apos;s path visually on any of the input frames.
+               <br/>
+               
+            </li>
+            <li>
+               CometAlignment module entirely rewritten with significant improvements in the tool&apos;s GUI and its multithreaded execution.
+               <br/>
+               
+            </li>
+         </ul>
+         <p>
+            Copyright © 2012-2023 Pleiades Astrophoto S.L. All Rights Reserved.
+            <br/>
+            
+         </p>
+      </description>
+   </package>
+   <package fileName="20230203-script.zip" sha1="712cc7c3fdb523643ad0e685104592d511996f82" type="script" repo="https://pixinsight.com/update/1.8.9-1/" releaseDate="20230203" installDate="20230729112906" remove="src/scripts/AdP src/scripts/WeightedBatchPreprocessing" title="WeightedBatchPreprocessing 2.5.9 / ImageSolver 5.6.6 / AnnotateImage 2.2.7 (update/bugfix)">
+      <description>
+         <p>
+            This package installs new versions of the WeightedBatchPreprocessing script, by Roberto Sartori et al., and the ImageSolver and AnnotateImage scripts, written by Andrés del Pozo and Juan Conejero. This is a cumulative update/bugfix release for PixInsight 1.8.9-1:
+         </p>
+         <h3>
+            <b>
+               ImageSolver 5.6.6 / AnnotateImage 2.2.7
+            </b>
+         </h3>
+         <ul>
+            <li>
+               ImageSolver: Bugfix: Prevent a rare condition where the automatic limit magnitude search loop could go into infinite recursion.
+               <br/>
+               
+            </li>
+            <li>
+               ImageSolver: Reduce the amount of (useless) console text generated while searching for an optimal limit magnitude.
+               <br/>
+               
+            </li>
+            <li>
+               ImageSolver: Small fixes to support WBPP 2.5.5.
+               <br/>
+               
+            </li>
+            <li>
+               ImageSolver: Improved final error message, which informs about possible causes of failure along with possible solutions.
+               <br/>
+               
+            </li>
+            <li>
+               ImageSolver generates a &apos;PCL:AstrometricSolution:Information&apos; property (storable, permanent) with the value &apos;source=computed,process=ImageSolver&apos;. This property allows us to differentiate between newly generated and inherited astrometric solutions.
+               <br/>
+               
+            </li>
+            <li>
+               ImageSolver and AnnotateImage: Gaia DR3 support / local Gaia DR3 XPSD database with the new Gaia XPSD server module version 1.1.3.
+               <br/>
+               
+            </li>
+            <li>
+               AnnotateImage: Improved Custom XEPH Files layer with a new directory search feature.
+               <br/>
+               
+            </li>
+            <li>
+               AnnotateImage: Bugfix: In ConstellationLabels.json: &apos;Ophiuchus&apos; instead of &apos;Ophiucus&apos;. Thanks to Bernd Landmann for discovering and reporting this long-standing error.
+               <br/>
+               
+            </li>
+            <li>
+               AnnotateImage: New HD Cross-Reference special catalog for annotation of HD star numbers. This catalog uses data from the All-sky Compiled Catalogue of 2.5 million stars (Kharchenko+ 2009), VizieR catalog: I/280B:
+               <br/>
+               https://cdsarc.cds.unistra.fr/viz-bin/cat/I/280B
+               <br/>
+               
+            </li>
+            <li>
+               AnnotateImage: Render numeric superscripts in Bayer star designations (e.g. alph01, pi.04) using Unicode superscript entities.
+               <br/>
+               
+            </li>
+         </ul>
+         <h3>
+            <b>
+               WBPP 2.5.9
+            </b>
+         </h3>
+         <ul>
+            <li>
+               Bugfix: Wrong icon shown for active master dark frames on the Calibration section. Original bug report:
+               <br/>
+               https://pixinsight.com/forum/index.php?threads/wbpp-v2-5-8-doesnt-mark-presence-of-dark-in-calibration-light-panel.20257/
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: DATE-OBS keyword values are parsed and verified to be valid ISO 8601 date/time representations and represented homogeneously on the GUI with three decimal digits for seconds, irrespective of the original keyword values.
+            </li>
+         </ul>
+         <h3>
+            <b>
+               WBPP 2.5.8
+            </b>
+         </h3>
+         <ul>
+            <li>
+               Bugfix: The main dialog window was not setting its geometry correctly upon script execution.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: Better management of window geometries in normal and compact GUI modes with window dimensions set uniformly on all platforms.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: Added tooltips for registration interpolation algorithms and clamping threshold parameters.
+               <br/>
+               
+            </li>
+            <li>
+               Copyright years updated to 2023 on the script&apos;s main GUI.
+               <br/>
+               
+            </li>
+         </ul>
+         <h3>
+            <b>
+               WBPP 2.5.7
+            </b>
+         </h3>
+         <ul>
+            <li>
+               Improvement: Drizzle integration for separated channels has been enabled.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: Performance increased for large amount of files.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: &quot;Add Directory&quot; opening path is the last used.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: Keywords in POST mode don&apos;t affect the Lighs panel&apos;s tree box grouping.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: Local Distorsion parameter is no more automatically disabled for separated channels alignment.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: Status check implemented for the post-calibration groups, a new control is added to the post-calibratoin panel.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: Overscan settings are stored into master files and can be reloaded if the master file contains this metadata.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: A new column in the calibration panel shows if a master file contains the Overscan settings that were set at the time it was created.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: The list of Cosmetic Correction instances are sorted alphabetically when listed in the dropdown control.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: WBPP settings are saved before a run and can be reloaded in the following launch in case the current execution is interrupted.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: The compatibility OBJCTRA and OBJCTDEC keywords are also recognized besides RA and DEC to retrieve the coordinates of the center of the image for light frames.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: Right Ascension and Declination units reported as (h m s) and the Unicode symbols for degree, arcminute and arcsecond, respectively.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: The dark and flat dropdowns in the calibration settings now report the ID of the group.
+               <br/>
+               
+            </li>
+            <li>
+               Minimum Frame rejection log entry updated to show &quot;&lt;&quot; when the image weight is lower than the minimum.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: The registration reference frame filepath is switched to &quot;auto&quot; after adding files using the Directory button.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: Process icon failed to reload in some cases.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: Wrong highlighting of bias group when a dark group is selected in the calibration panel.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: &quot;Remove selected&quot; button operation not working properly when keywords were set.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: Wrong number of light frames per group was reported when keywords was set.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: Pixel size and focal length values must be parsed and represented as real numbers instead of as integers.
+               <br/>
+               
+            </li>
+         </ul>
+         <h3>
+            <b>
+               WBPP 2.5.6
+            </b>
+         </h3>
+         <ul>
+            <li>
+               Critical Bugfix: Weights writing step was wrongly scheduled and caused all frames to fail under some circumstances.
+               <br/>
+               
+            </li>
+         </ul>
+         <h3>
+            <b>
+               WBPP 2.5.5
+            </b>
+         </h3>
+         <ul>
+            <li>
+               Improvement: Image solver default parameters added.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: When the frame type is missing, it can be inferred by the containing folder named &quot;darks&quot;, &quot;flats&quot; and &quot;lights&quot;.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: ImageSolver parameters are saved when platesolve completes successfully.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: The &quot;Cancel&quot; action in the Execution monitor changes the current operation status to &quot;cancelling...&quot; to hint that WBPP will stop after the step completion.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: Number of frames per group reported in files treeBox.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: New columns for right ascension, declination, focal length and pixel size added on the light frames tree box. Visibility of these columns can be controlled with a new Show/Hide Astrometry button.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: Tree boxes are now expanded to occupy the maximum possible space horizontally when the WBPP main dialog is resized.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: Crop mask is not rendered properly in some cases.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: Diagnostics was not presented if output directory was not specified.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: An error prevented autocrop to complete if rejection maps generation was disabled.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: Dark frames and flat frames are now recognized searching &quot;darks&quot; and &quot;flats&quot; in the full path.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: Image integration checkbox state was not correctly restored from a process icon.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: Local Normalization refernce frame generation failed when autocrop was enabled.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: Reference frame selection ppipeline step was executed when the reference frame was set manually.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: Bad frame rejection pipeline step was executed when image integration was disabled.
+               <br/>
+               
+            </li>
+         </ul>
+         <h3>
+            <b>
+               WBPP 2.5.4
+            </b>
+         </h3>
+         <ul>
+            <li>
+               Improvement: New Autocrop feature implemented.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: Demand the propagation of astrometric solutions to the StarAlignment process.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: The diagnostic tests for the 256 file path limitation and reports the potential issue, if present.
+               <br/>
+               
+            </li>
+            <li>
+               A few console warnings have been removed.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: &quot;Separate CFA scaling factors&quot; checkbox change was not reflected in the interface.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: Combined RGB master file name contains &quot;_drizzle_xx_&quot; information.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: Drizzle kernel function tooltip updated.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: Interactive mode was crashing using frames with a negative median value.
+               <br/>
+               
+            </li>
+         </ul>
+         <h3>
+            <b>
+               WBPP 2.5.3
+            </b>
+         </h3>
+         <ul>
+            <li>
+               Improvement: Debayer method reported in the CFA images column under calibration panel.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: SuperPixel debayer is not compatible with drizzle integration.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: CosmeticCorrection execution fixed.
+               <br/>
+               
+            </li>
+         </ul>
+         <h3>
+            <b>
+               WBPP 2.5.2
+            </b>
+         </h3>
+         <ul>
+            <li>
+               Improvement: drizzle functions extended to the same available in the DrizzleIntegration process. Grid Size parameter added.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: Astrometric Solution box added under light panel.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: The LN interactive mode GUI restores its state if cache data is available.
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: new &quot;Interactive in case of failure&quot; checkbox added to astrometric solution gropu to enable or disable the human intervention when a valid astrometric solution cannot be found automatically.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: Local normalization scale was computed on the uncalibrated image size instead of the current image size. Registration or SuperPixel debayer method may have caused an image rescaling that was incompatible with the scale.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: LN interactive mode does not create copies of the cached reference frame when it is generated.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: error generating the integrated LN reference frame if a subset of best frames was cached.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: keywords column was misaligned in darks calibration table.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: WBPP fails reloading old WBPP data.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: Pipeline and GUI was not refreshing after some calibration settings changed.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: generate rejection maps checkbox was not restored correctly.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: cached cosmetic correction files not reported in Execution Monitor.
+               <br/>
+               
+            </li>
+         </ul>
+         <h3>
+            <b>
+               WBPP 2.5.1
+            </b>
+         </h3>
+         <ul>
+            <li>
+               Bugfix: pipeline is not refreshed when Interactive mode checkbox changes.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: pipeline script always executed once installed.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: handling of the drizzle files fixed in star alignment cache may cause a cache invalidation.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: image integration cache is not be used for generating the LN reference frame.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: tooltips fixed.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: prevent trailing double right parentheses in group information lines.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: the WBPP Execution Monitor dialog was being resized incorrectly, leading to unmanageable window dimensions on small monitors.
+               <br/>
+               
+            </li>
+            <li>
+               Accurate execution time information provided for cache parsing operations.
+               <br/>
+               
+            </li>
+            <li>
+               Always initialize ImageSolver configuration parameters with default values.
+               <br/>
+               
+            </li>
+            <li>
+               Improved console text messages related to astrometric solutions.
+               <br/>
+               
+            </li>
+         </ul>
+         <h3>
+            <b>
+               WBPP 2.5.0
+            </b>
+         </h3>
+         <ul>
+            <li>
+               Added a new tab &quot;Pipeline&quot; where the pipeline is represented as a sequence of operations.
+               <br/>
+               
+            </li>
+            <li>
+               New optional pipeline event script assignable to the pipeline.
+               <br/>
+               
+            </li>
+            <li>
+               Pipeline execution cache implemented.
+               <br/>
+               
+            </li>
+            <li>
+               &quot;Active steps&quot; control is moved under the Pipeline tab, and checkboxes are now enabled.
+               <br/>
+               
+            </li>
+            <li>
+               New separated RGB channels handling, each separated channel can be selectively enabled/disabled.
+               <br/>
+               
+            </li>
+            <li>
+               New &quot;Generate process container&quot; global option to enable the generation of a script that groups all processes executed by the pipeline in the last WBPP execution in a Process Container.
+               <br/>
+               
+            </li>
+            <li>
+               The pipeline execution flow order has changed to make all interactive mode steps executed in sequence.
+               <br/>
+               
+            </li>
+            <li>
+               Drizzle integration added as an optiona integartion step.
+               <br/>
+               
+            </li>
+            <li>
+               The default output directory for saving the smart report content is set to be the logs folder.
+               <br/>
+               
+            </li>
+            <li>
+               Dialog disabled while scanning and adding new files using the directory button.
+               <br/>
+               
+            </li>
+            <li>
+               Checkbox added to enable/disable the compact GUI on small screens.
+               <br/>
+               
+            </li>
+            <li>
+               Add Directory and Add Files buttons are visible in compect GUI mode.
+               <br/>
+               
+            </li>
+            <li>
+               Reset panel controls updated to enable/disable the parameters resetting and to purge the execution cache is added.
+               <br/>
+               
+            </li>
+            <li>
+               Files addition progress is shown in the console when files are added using &quot;Directory&quot; button or when loaded groups data migration is performed.
+               <br/>
+               
+            </li>
+            <li>
+               Color space of colorized images in post-calibration groups is reported as &quot;RGB&quot; instead of &quot;CFA&quot;.
+               <br/>
+               
+            </li>
+            <li>
+               Compatibility with pre-calibrated MasterDark frames has been removed.
+               <br/>
+               
+            </li>
+            <li>
+               &quot;Contains Bias&quot; column has been removed from the Dark table in the Calibration panel.
+               <br/>
+               
+            </li>
+            <li>
+               Overscan handling improved: post-calibration size is updated in agreement to the overscan area size.
+               <br/>
+               
+            </li>
+            <li>
+               Overscan handling improved: size matching considers the overscan constraints when matching the calibration flat group.
+               <br/>
+               
+            </li>
+            <li>
+               Execution Monitor: elapsed time column added, running step elapsed time is now updated while in progress.
+               <br/>
+               
+            </li>
+            <li>
+               Execution Monitor: the window size is now adjusted to accommodate the content when opened.
+               <br/>
+               
+            </li>
+            <li>
+               Linear Pattern Subtraction: global rejection limit value is set to a maximum value between 5 and the rejection limit control value.
+               <br/>
+               
+            </li>
+            <li>
+               Linear Defects Detection: the detected defective lines are saved into a text file.
+               <br/>
+               
+            </li>
+            <li>
+               Image Integration: if the first frame integrated contains an astrometric solution then that solution is transferred to the integrated image.
+               <br/>
+               
+            </li>
+            <li>
+               Local Normalization: the &quot;normalization scale&quot; parameter has been replaced by the &quot;Grid Size&quot; parameter. The latter adaptively determines the scale adopted by Local Normalization.
+               <br/>
+               
+            </li>
+            <li>
+               Local normalization: the constraint of using maximum of 20 frames to generate the local normalization reference frame has been converted into a GUI parameter.
+               <br/>
+               
+            </li>
+            <li>
+               Local normalization Interactive Mode: pressing &quot;ESC&quot; is equivalent to cancel the reference frame selection and disable the local normalization for the current group.
+               <br/>
+               
+            </li>
+            <li>
+               Local normalization Interactive Mode: shadows and mid-tones adjustments added to fine tune the autostretch applied to the preview.
+               <br/>
+               
+            </li>
+            <li>
+               Local normalization Interactive Mode: exclude button label changes to &quot;Include&quot; if the current item is excluded.
+               <br/>
+               
+            </li>
+            <li>
+               Local normalization Interactive Mode: the name of the genertated refrence frame includes the group name.
+               <br/>
+               
+            </li>
+            <li>
+               In Image Integration panel, the &quot;default minimum weight&quot; default value has changed to 0.05.
+               <br/>
+               
+            </li>
+            <li>
+               New &quot;Bad frames rejection&quot; step added after frames measurements to remove bad frames before executing Registration, Local Normalization and Image Integration.
+               <br/>
+               
+            </li>
+            <li>
+               Logging: log file is updated and saved after each pipeline step instead of being written at the very end of the pipeline execution.
+               <br/>
+               
+            </li>
+            <li>
+               Presets: mid-quality preset sets the number of maximum stars to 500.
+               <br/>
+               
+            </li>
+            <li>
+               Presets: fast preset leaves the automatic pedestal settings unchanged.
+               <br/>
+               
+            </li>
+            <li>
+               RGB Recombination is performed only if Image Integration is enabled.
+               <br/>
+               
+            </li>
+            <li>
+               Global option &quot;generate rejection maps&quot; removed, rejection maps are always generated.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: peroper handling of Local Normalization max number of stars out-of-range saved values.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: the local normalization reference frame integrated with the best M* frames was not found on Windows.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: the LN interactive mode window always selects the current selected frame as a reference on exit.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: the standard input hints are used to extract the image size.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: keyword handling bug caused random group duplication.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: overscan regions were not correctly applied.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: wrong reference frame by keyword reported in the GUI.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: light exposure tolerance in post-calibration mode was assuming the calibration exposure tolerance value.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: saving output directory containing accented characters is now correctly handled.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: tooltip typos.
+               <br/>
+               
+            </li>
+         </ul>
+         <p>
+            ________________________________________________________________
+         </p>
+         <p>
+            Copyright © 2019-2023 Roberto Sartori
+            <br/>
+            Copyright © 2020-2021 Adam Block
+            <br/>
+            Copyright © 2019 Tommaso Rubechi
+            <br/>
+            Copyright © 2012 Kai Wiechen
+            <br/>
+            Copyright © 2012-2023 Andres del Pozo
+            <br/>
+            Copyright © 2019-2023 Juan Conejero
+            <br/>
+            Copyright © 2012-2023 Pleiades Astrophoto
+         </p>
+      </description>
+   </package>
+   <package fileName="20230203-windows-x64-module.zip" sha1="160487de6d101e649a95ad53e6710beeb31b02f7" type="module" repo="https://pixinsight.com/update/1.8.9-1/" releaseDate="20230203" installDate="20230729112906" title="ImageCalibration module version 1.9.8 (update)">
+      <description>
+         <p>
+            This package installs a new version of the standard ImageCalibration module for PixInsight core version 1.8.9-1. Version 1.9.8 is an update release:
+         </p>
+         <ul>
+            <li>
+               Improvement: LocalNormalization: Arbitrary normalization scales are now supported in the range from 32 to 8192 pixels. When a non-optimized scale is specified, the process automatically selects the nearest optimized parameter value. This change enables support for the new
+               <em>
+                  grid size
+               </em>
+               local normalization parameter of the WBPP script since version 2.5.4. See the original report and discussion:
+               <br/>
+               https://pixinsight.com/forum/index.php?threads/problems-with-wbpp-v2-5-4.19778/page-2#post-121839
+               <br/>
+               
+            </li>
+         </ul>
+         <p>
+            Copyright © 2009-2023 Pleiades Astrophoto S.L. All Rights Reserved.
+         </p>
+      </description>
+   </package>
+   <package fileName="20230204-1-windows-x64-module.zip" sha1="3c1fd4e3ad3ad82765e0343bae7579ffd7a2baf4" type="module" repo="https://pixinsight.com/update/1.8.9-1/" releaseDate="20230204" installDate="20230729112906" title="ImageIntegration module version 1.5.1 (bugfix)">
+      <description>
+         <p>
+            This package installs a new version of the standard ImageIntegration module for PixInsight core version 1.8.9-1. Version 1.5.1 is a bugfix release:
+         </p>
+         <ul>
+            <li>
+               Bugfix: ImageIntegration: Fixed a performance regression in the PSF-based signal evaluation task applied to the final integrated image. This regression was particularly severe on macOS under x64 Rosetta emulation. See the original bug report:
+               <br/>
+               
+               <br/>
+               https://pixinsight.com/forum/index.php?threads/slow-image-integration.20139/
+               <br/>
+               
+            </li>
+         </ul>
+         <p>
+            Copyright © 2009-2023 Pleiades Astrophoto S.L. All Rights Reserved.
+         </p>
+      </description>
+   </package>
+   <package fileName="20230205-windows-x64-module.zip" sha1="2ea117c42d3f01994246d3c9b0140ca1545e4745" type="module" repo="https://pixinsight.com/update/1.8.9-1/" releaseDate="20230205" installDate="20230729112906" title="Geometry module version 1.4.2 (update/bugfix)">
+      <description>
+         <p>
+            This package installs a new version of the standard Geometry module for PixInsight core version 1.8.9-1. Version 1.4.2 is a cumulative update/bugfix release:
+         </p>
+         <ul>
+            <li>
+               Improvement: Added support for gamma-corrected pixel interpolation in the following processes: DynamicCrop, IntegerResample, Resample, and Rotation. Gamma correction should be applied for scaling and rotation of nonlinear images, that is, images whose pixel values have been stretched nonlinearly with histogram-based tools, pixel intensity curves or functions, and similar processes. See the original report where this important feature was suggested and discussed:
+               <br/>
+               
+               <br/>
+               https://pixinsight.com/forum/index.php?threads/gamma-correct-scaling.19468/
+               <br/>
+               
+               <br/>
+               See also the following article, where this problem and its solution are described in detail:
+               <br/>
+               
+               <br/>
+               http://www.ericbrasseur.org/gamma.html
+               <br/>
+               
+            </li>
+            <li>
+               Improvement: DynamicCrop, Rotation: Increased precision of rotation angles to ensure a minimum resolution of 0.01 arcseconds.
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: DynamicCrop: Fixed a bug where the dimensions and rotation angle of the original cropping rectangle defined interactively could be altered when applying the DynamicCrop instance to images with the same dimensions in some cases. See the original bug report:
+               <br/>
+               
+               <br/>
+               https://pixinsight.com/forum/index.php?threads/saved-dynamiccrop-icon-does-not-replicate-original-crop.19506/
+               <br/>
+               
+            </li>
+            <li>
+               Bugfix: DynamicCrop: Ensure compatibility with existing scripts that depend on the (now deprecated) DynamicCrop.width and DynamicCrop.height parameters. Original bug report:
+               <br/>
+               
+               <br/>
+               https://pixinsight.com/forum/index.php?threads/dynamiccrop-problem-within-javascript.20284/
+               <br/>
+               
+            </li>
+         </ul>
+         <p>
+            Copyright © 2005-2023 Pleiades Astrophoto S.L. All Rights Reserved.
+         </p>
+      </description>
+   </package>
+   <package fileName="20220422-refdoc.zip" sha1="119643fdf3d35267990c192eb7dd2bb5cc8f2e24" type="doc" repo="https://pixinsight.com/update-doc/1.8.9-1/" releaseDate="20220422" installDate="20230729112906" remove="doc/docs doc/scripts doc/tools" title="PixInsight Reference Documentation - 2022/04/22 Release">
+      <description>
+         <p>
+            This package installs the current version of the PixInsight Reference Documentation for PixInsight core 1.8.9-1 Ripley. This is a monolithic package including technical documents and reference documentation for tools and scripts. Released 2022 April 22.
+         </p>
+         <p>
+            Copyright © 2003-2022 Pleiades Astrophoto S.L. All Rights Reserved.
+            <br/>
+            Copyright © 2016-2022 Klaus Kretzschmar. All Rights Reserved.
+            <br/>
+            Copyright © 2014-2022 Ian Lauwerys. All Rights Reserved.
+            <br/>
+            Copyright © 2017-2022 Cameron Leger. All Rights Reserved.
+            <br/>
+            Copyright © 2020-2022 Edoardo Luca Radice. All Rights Reserved.
+            <br/>
+            Copyright © 2012-2022 Jean-Marc Lugrin. All Rights Reserved.
+            <br/>
+            Copyright © 2019-2022 John Murphy. All Rights Reserved.
+            <br/>
+            Copyright © 2015-2022 Andres del Pozo. All Rights Reserved.
+            <br/>
+            Copyright © 2021-2022 Roberto Sartori. All Rights Reserved.
+            <br/>
+            Copyright © 2016-2022 Mike Schuster. All Rights Reserved.
+            <br/>
+            Copyright © 2017-2022 Mark Shelley. All Rights Reserved.
+            <br/>
+            Copyright © 2017-2022 Frank Weidenbusch. All Rights Reserved.
+            <br/>
+            Copyright © 2011-2022 Georg Viehoever. All Rights Reserved.
+            <br/>
+            Copyright © 2011-2022 Zbynek Vrastil. All Rights Reserved.
+            <br/>
+            
+         </p>
+      </description>
+   </package>
+   <package fileName="20220620-refdoc.zip" sha1="70c539658269b332210fb63ff940b84cf345d01c" type="doc" repo="https://pixinsight.com/update-doc/1.8.9-1/" releaseDate="20220620" installDate="20230729112906" remove="doc/scripts/CorrectMagentaStars" title="CorrectMagentaStars script documentation (version 1.3)">
+      <description>
+         <p>
+            This package installs updated reference documentation for the CorrectMagentaStars script (version 1.3), written by Roberto Sartori and Edoardo Luca Radice. Released 2022 June 20.
+         </p>
+         <p>
+            Copyright © 2019-2022 Roberto Sartori / Edoardo Luca Radice
+            <br/>
+            Copyright © 2019-2022 Pleiades Astrophoto
+         </p>
+      </description>
+   </package>
+   <package fileName="20230127-refdoc.zip" sha1="0977876aedf7099a2a0222b13c307414c2432df6" type="doc" repo="https://pixinsight.com/update-doc/1.8.9-1/" releaseDate="20230127" installDate="20230729112906" remove="doc/tools/CometAlignment" title="CometAlignment process documentation (version 1.3.5)">
+      <description>
+         <p>
+            This package installs updated reference documentation for the CometAlignment tool (version 1.3.5). Documentation written by Edoardo Luca Radice. Released 2023 January 27.
+         </p>
+         <p>
+            Copyright © 2023 Edoardo Luca Radice
+            <br/>
+            Copyright © 2023 Pleiades Astrophoto
+         </p>
+      </description>
+   </package>
+   <package fileName="20221226-1-resource.zip" sha1="692d1524b820cb0bb048236f20f2e437797ba3b8" type="resource" repo="https://pixinsight.com/update-eph/1.8.9-1/" releaseDate="20221226" installDate="20230729112906" title="Core Asteroid and KBO Ephemerides (JPL DE441) / Delta T and Polar Motion Databases">
+      <description>
+         <p>
+            This package installs updated ephemeris data for PixInsight 1.8.9-1:
+         </p>
+         <ul>
+            <li>
+               New core XEPH files with ephemeris data for the 343 most massive asteroids and the 30 largest known Kuiper belt objects. These files have been generated from the latest JPL DE441 ephemerides and cover the time span from Jan 10 1550 to Jan 25 2650.
+               <br/>
+               
+            </li>
+            <li>
+               Updated Delta T database. This file provides estimates of Delta T, or the difference TT–UT1. Updated with IERS Earth orientation data as of 2022 Dec 13.
+               <br/>
+               
+            </li>
+            <li>
+               Updated polar motion database. This file provides values for the coordinates of the Celestial Intermediate Pole (CIP) in the ITRS, necessary to account for polar motion in calculation of topocentric coordinates (relevant for Moon positions accurate at the milliarcsecond level). Updated with IERS Earth orientation data as of 2022 Dec 13.
+               <br/>
+               
+            </li>
+         </ul>
+         <p>
+            Copyright © 2022 Pleiades Astrophoto S.L. All Rights Reserved.
+            <br/>
+            
+         </p>
+      </description>
+   </package>
+   <package fileName="20200822-resource.zip" sha1="f69a1b669293970f198169ac9ed18067dea1e71c" type="resource" repo="https://pixinsight.com/update-db/1.8.9-1/" releaseDate="20200822" installDate="20230729112906" title="StarNet Neural Network Weights Databases - 2020/08/22 Release">
+      <description>
+         <p>
+            This package installs the necessary weights files for the StarNet module, written by Nikita Misiura, available since PixInsight core 1.8.8-6 Ripley. This package provides the RGB and grayscale weights databases. Released 2020 August 22.
+         </p>
+         <p>
+            Copyright © 2003-2020 Pleiades Astrophoto S.L. All Rights Reserved.
+            <br/>
+            Copyright © 2018-2020 Nikita Misiura. All Rights Reserved.
+         </p>
+      </description>
+   </package>
+   <package fileName="20221006-1-nxt-module-windows.tar.gz" sha1="c8dce4fa817f4beb709116ecabd5ed6b5b20e73b" type="module" repo="https://www.rc-astro.com/resources/NoiseXTerminator/PixInsight/" releaseDate="20221006" installDate="20230729112906" title="RC Astro NoiseXTerminator Module Version 1.1.2">
+      <description>
+         <p>
+            This package updates the NoiseXTerminator process module to version 1.1.2. This update corrects a bug that could cause you to have to re-enter your license key unnecessarily.
+         </p>
+         <p>
+            Copyright © 2022 RC Astro, LLC. All Rights Reserved.
+            <br/>
+            Portions of this product are based on software from the PixInsight project, developed by Pleiades Astrophoto and its contributors. These portions are subject to the
+            <a href="https://pixinsight.com/license/PCL_PJSR_1.0.html">
+               PixInsight Class Library License
+            </a>
+            .
+         </p>
+      </description>
+   </package>
+   <package fileName="20220522-nxt-ai-windows-linux.tar.gz" sha1="2c49467ae2c1c8bccdb91d616f91e568f7ed8763" type="resource" repo="https://www.rc-astro.com/resources/NoiseXTerminator/PixInsight/" releaseDate="20220522" installDate="20230729112906" title="RC Astro NoiseXTerminator AI Version 2">
+      <description>
+         <p>
+            This package installs version 2 of the AI (neural network) for NoiseXTerminator. This version improves on AI1 in the following ways:
+         </p>
+         <ul>
+            <li>
+               Better reduction of low-frequency (large-scale) noise.
+            </li>
+            <li>
+               Better retention of detail in faint areas, especially in dark structures (e.g., galaxy dust lanes) and small-scale detail close to the noise floor (e.g., very faint stars).
+            </li>
+            <li>
+               More refined results overall, for example in star shapes and reduction of color noise on stars.
+            </li>
+            <li>
+               Though NoiseXTerminator is at its best on deep-sky objects, AI2 performs better than AI1 on lunar and planetary images.
+            </li>
+         </ul>
+         <p>
+            After download and installation completes, click &quot;Select AI&quot; in the NoiseXTerminator process module to select this file from the &quot;library&quot; folder.
+         </p>
+         <p>
+            Copyright © 2022 RC Astro, LLC. All Rights Reserved.
+            <br/>
+            
+         </p>
+      </description>
+   </package>
+   <package fileName="20230725-bxt-module-1891-windows.tar.gz" sha1="1d60b8ffcf05ea6b15fdc24fb2dece6886561aa9" type="module" repo="https://www.rc-astro.com/resources/BlurXTerminator/PixInsight/" releaseDate="20230725" installDate="20230729112906" title="BlurXTerminator Module Version 1.1.17">
+      <description>
+         <p>
+            This package installs version 1.1.17 of the BlurXTerminator process module and documentation. This update contains the following changes:
+            <ul><li>
+                  Corrects an error that caused real-time previews on monochrome images to stop updating.
+               </li></ul>
+            
+         </p>
+         <p>
+            Copyright 2023 RC Astro, LLC. All Rights Reserved. This software is subject to the
+            <a href="https://www.rc-astro.com/rc-astro-software-license-agreement/">
+               RC Astro Software License Agreement
+            </a>
+            .
+            <ul><li>
+                  Portions of this product are based on software from the PixInsight project, developed by Pleiades Astrophoto and its contributors. These portions are subject to the
+                  <a href="https://pixinsight.com/license/PCL_PJSR_1.0.html">
+                     PixInsight Class Library License
+                  </a>
+                  .
+               </li><li>
+                  Portions of this product are based on the libcurl library. These portions are subject to the
+                  <a href="https://curl.se/docs/copyright.html">
+                     curl/libcurl copyright notice.
+                  </a>
+               </li></ul>
+            
+         </p>
+      </description>
+   </package>
+   <package fileName="20230110-bxt-ai-windows-linux.tar.gz" sha1="3dd3ec2b71751259bde959b72d00bc54bb4461d8" type="resource" repo="https://www.rc-astro.com/resources/BlurXTerminator/PixInsight/" releaseDate="20230110" installDate="20230729112906" title="BlurXTerminator AI Version 2">
+      <description>
+         <p>
+            This package installs version 2 of the AI (neural network definition) for BlurXTerminator. This version improves preservation of star color over AI1, and in general produces a more accurate and refined deconvolution result.
+         </p>
+         <p>
+            After the update completes, click &quot;Select AI&quot; in the BlurXTerminator process module to select AI version 2 from PixInsight&apos;s library folder, or click the reset icon in the BlurXTerminator process window.
+         </p>
+         <p>
+            On MacOS, two AI files are installed: one for MacOS 12 and later (mlpackage), and one for earlier MacOS versions (mlmodel). The mlpackage file implements &quot;float32&quot; precision in the neural network computations, improving accuracy and eliminating posterization in star cores and bright areas of images. The mlpackage version requires version 1.1.0 or later of the BlurXTerminator process module.
+         </p>
+         <p>
+            Copyright 2023 RC Astro, LLC. All Rights Reserved. This software is subject to the
+            <a href="https://www.rc-astro.com/rc-astro-software-license-agreement/">
+               RC Astro Software License Agreement
+            </a>
+            .
+         </p>
+      </description>
+   </package>
+   <package fileName="20221006-sxt-module-windows.tar.gz" sha1="8409503e14015343c5f9d19b3af3783d510431a5" type="module" repo="https://www.rc-astro.com/resources/StarXTerminator/PixInsight/" releaseDate="20221006" installDate="20230729112906" title="StarXTerminator Module Version 2.0.5 Update">
+      <description>
+         <p>
+            This package updates the StarXTerminator process module to version 2.0.5. This update corrects a bug that could cause you to have to re-enter your license key unnecessarily.
+         </p>
+         <p>
+            Copyright © 2022 RC Astro, LLC. All Rights Reserved.
+            <br/>
+            Portions of this product are based on software from the PixInsight project, developed by Pleiades Astrophoto and its contributors. These portions are subject to the
+            <a href="https://pixinsight.com/license/PCL_PJSR_1.0.html">
+               PixInsight Class Library License
+            </a>
+            .
+            <br/>
+            Portions of this product are based on the libcurl library. These portions are subject to the
+            <a href="https://curl.se/docs/copyright.html">
+               curl/libcurl copyright notice.
+            </a>
+            
+         </p>
+      </description>
+   </package>
+   <package fileName="20220912-sxt-ai-windows-linux.tar.gz" sha1="c18b6e74c2604f3a7af519d3181c2dec81e1c016" type="resource" repo="https://www.rc-astro.com/resources/StarXTerminator/PixInsight/" releaseDate="20220912" installDate="20230729112906" title="StarXTerminator AI Version 11 Update">
+      <description>
+         <p>
+            This is a re-release of StarXTerminator AI version 11 in three flavors:
+            <ul><li>
+                  StarXTerminator.11: the original AI 11 neural network. This gives the best performance but consumes the most time and compute resources, and may either not run or take a very long time to run on machines without the lastest advanced compute hardware.
+               </li><li>
+                  StarXTerminator.lite.11: a scaled-down version using much less compute resources. Select this version if your machine bogs down or cannot run the full version of AI 11. Performance will be slightly degraded on very large structures such as huge stars with extended scattered light and/or extremely long diffraction spikes, and on very bright objects with high contrast to their surroundings (e.g., M42).
+               </li><li>
+                  StarXTerminator.lite.nonoise.11: Same as &quot;lite&quot; but without the noise-matching module mentioned below. This will improve execution time further, but the areas where stars used to be will not have noise added to match the rest of the image. This is less of an issue for low-noise images or if noise reduction will be performed.
+               </li></ul>
+            
+         </p>
+         <p>
+            This release also includes a fix for a bug that was causing artifacts in images having large areas with very bright or clipped pixel values in one or more channels.
+         </p>
+         <p>
+            AI 11 is a major update with the following changes:
+            <ul><li>
+                  All-new neural network architecture, trained from scratch with a much larger training data set, including data from the James Webb and Hubble space telescopes.
+               </li><li>
+                  Improved handling of extremely large, bright stars and long diffraction spikes.
+               </li><li>
+                  Improved preservation and recovery of image detail from the halos of bright stars.
+               </li><li>
+                  Completely revamped noise matching algorithm that fills in noise where the stars once were. You may find it difficult to tell where the stars used to be.
+               </li><li>
+                  Improved handling of images with varying dynamic range and star profiles, particularly images integrated using drizzle and those stretched with alternate methods such as arcsinh.
+               </li><li>
+                  Improved detection and removal of stars with guiding errors and misregistration of RGB channels.
+               </li></ul>
+            
+         </p>
+         <p>
+            After the update completes, click &quot;Select AI&quot; in the StarXTerminator process module to select AI version 11 from the library folder.
+         </p>
+         <p>
+            As always, submissions of images on which StarXTerminator&apos;s performance could be better are welcome. Neural networks are only as good as their training data, and that can always be expanded and improved upon to make this a better tool for everyone. Send an email to support@rc-astro.com, and image upload instructions will be provided. Many thanks to all of the StarXTerminator users who have contributed their images so far.
+         </p>
+         <p>
+            Copyright © 2022 RC Astro, LLC. All Rights Reserved.
+            <br/>
+            
+         </p>
+      </description>
+   </package>
+   <package fileName="ghsdoc20220402.zip" sha1="cdbe99f517e7c41bdb6c68e463b7e1bae33f7de1" type="doc" repo="https://www.ghsastro.co.uk/updates/" releaseDate="20220402" installDate="20230729171333" title="GeneralisedHyperbolicStretch PixInsight Script Documentation">
+      <description>
+         <p>
+            This update installs documentation for the GeneralisedHyperbolicStretch script for PixInsight Core versions from 1.8.9-1.
+         </p>
+         <p>
+            Copyright (c) 2021, 2022, David Payne, All Rights Reserved.
+         </p>
+      </description>
+   </package>
+   <package fileName="ghsResources20220830.zip" sha1="3852a84577ed378d84cea613600f0e7b8ce6491d" type="resource" repo="https://www.ghsastro.co.uk/updates/" releaseDate="20221102" installDate="20230729171333" title="GeneralisedHyperbolicStretch Resource Files">
+      <description>
+         <p>
+            This package installs resource files for the GHS module.
+         </p>
+         <p>
+            Copyright (c) 2022, Mike Cranfield, All Rights Reserved.
+         </p>
+      </description>
+   </package>
+   <package fileName="ghsmoduledoc20230405.zip" sha1="462fc7337d77e39c6247af9b37590f36fba36e35" type="doc" repo="https://www.ghsastro.co.uk/updates/" releaseDate="20230405" installDate="20230729171333" title="GeneralizedHyperbolicStretch PixInsight Module Documentation">
+      <description>
+         <p>
+            This package updates the documentation files for the GHS process module.
+         </p>
+         <p>
+            Copyright (c) 2022, 2023 Mike Cranfield, All Rights Reserved.
+         </p>
+      </description>
+   </package>
+   <package fileName="ghs20230208v225signed.zip" sha1="7e5dfc15ffdece92373c90fe7059783ed64ec548" type="script" repo="https://www.ghsastro.co.uk/updates/" releaseDate="20221104" installDate="20230729171333" title="GeneralisedHyperbolicStretch PixInsight Script version 2.2.5">
+      <description>
+         <p>
+            This update installs the GeneralisedHyperbolicStretch script version 2.2.5 for PixInsight Core versions from 1.8.9-1.
+         </p>
+         <p>
+            Bug fix when creating new image and using process module
+         </p>
+         <p>
+            Copyright (c) 2021-2023 Mike Cranfield, All Rights Reserved.
+         </p>
+      </description>
+   </package>
+   <package fileName="ghsModuleWindows20230405v303.zip" sha1="6fb5d7276994cd362c4d5a396debeb88b36ba525" type="module" repo="https://www.ghsastro.co.uk/updates/" releaseDate="20230405" installDate="20230729171333" title="GeneralisedHyperbolicStretch PixInsight Module Version 3.0.3">
+      <description>
+         <p>
+            This update installs the GeneralizedHyperbolicStretch module version 3.0.3
+         </p>
+         <p>
+            Changes included:
+         </p>
+         <p>
+            Track view facility added
+         </p>
+         <p>
+            Zoom to readout value added
+         </p>
+         <p>
+            Code optimisation
+         </p>
+         <p>
+            Copyright (c) 2022, 2023 Mike Cranfield, All Rights Reserved.
+         </p>
+      </description>
+   </package>
+   <package fileName="StarReductionDoc20230711V0100.tar.gz" sha1="a63db647b2ecdd73563bd72f064ce00c088ede68" type="doc" repo="https://www.cosmicphotons.com/pi-scripts/starreduction/" releaseDate="20230711" installDate="20230729172614" title="StarReduction PixInsight Documentation">
+      <description>
+         <p>
+            This update installs documentation for the StarReduction script
+         </p>
+         <p>
+            Copyright (c) 2023, Mike Cranfield, All Rights Reserved.
+         </p>
+      </description>
+   </package>
+   <package fileName="StarReduction20230713V0100.tar.gz" sha1="34d6e08023ce8b093a8ddbebd50856129907e72a" type="script" repo="https://www.cosmicphotons.com/pi-scripts/starreduction/" releaseDate="20230713" installDate="20230729172614" title="StarReduction Script Version 1.0">
+      <description>
+         <p>
+            This update installs the StarReduction script Copyright (c) 2023, Mike Cranfield, All Rights Reserved.
+         </p>
+      </description>
+   </package>
+   <package fileName="20230806-nxt-module-1891-windows.tar.gz" sha1="d7a53ca7e659f2036814c0b46ccfdd0e83158e1d" type="module" repo="https://www.rc-astro.com/resources/NoiseXTerminator/PixInsight/" releaseDate="20230806" installDate="20230729195651" title="RC Astro NoiseXTerminator Module Version 1.1.4">
+      <description>
+         <p>
+            This package updates the NoiseXTerminator process module to version 1.1.4. This is a minor update with the following changes:
+            <ul><li>
+                  Compatibility updates for PixInsight 1.8.9-2
+               </li><li>
+                  Adjusted normalization algorithm to avoid histogram clipping in shadow regions.
+               </li><li>
+                  Fixed a Windows-specific issue that caused a ghost border around the minimized (iconified) process module
+               </li><li>
+                  Updated process icon
+               </li></ul>
+            
+         </p>
+         <p>
+            Copyright 2023 RC Astro, LLC. All Rights Reserved. This software is subject to the
+            <a href="https://www.rc-astro.com/rc-astro-software-license-agreement/">
+               RC Astro Software License Agreement
+            </a>
+            .
+            <ul><li>
+                  Portions of this product are based on software from the PixInsight project, developed by Pleiades Astrophoto and its contributors. These portions are subject to the
+                  <a href="https://pixinsight.com/license/PCL_PJSR_1.0.html">
+                     PixInsight Class Library License
+                  </a>
+                  .
+               </li><li>
+                  Portions of this product are based on the libcurl library. These portions are subject to the
+                  <a href="https://curl.se/docs/copyright.html">
+                     curl/libcurl copyright notice.
+                  </a>
+               </li></ul>
+            
+         </p>
+      </description>
+   </package>
+   <package fileName="20220522-nxt-ai-windows-linux.tar.gz" sha1="437ff7c96e5ab96ab7c1d064b248a46779c6f04b" type="resource" repo="https://www.rc-astro.com/resources/NoiseXTerminator/PixInsight/" releaseDate="20220522" installDate="20230729195651" title="RC Astro NoiseXTerminator AI Version 2">
+      <description>
+         <p>
+            This package installs version 2 of the AI (neural network) definition for NoiseXTerminator.
+         </p>
+         <p>
+            After download and installation completes, click &quot;Select AI&quot; in the NoiseXTerminator process module to select this file from PixInsight&apos;s&apos; &quot;library&quot; folder.
+         </p>
+         <p>
+            Copyright 2023 RC Astro, LLC. All Rights Reserved. This software is subject to the
+            <a href="https://www.rc-astro.com/rc-astro-software-license-agreement/">
+               RC Astro Software License Agreement
+            </a>
+            .
+         </p>
+      </description>
+   </package>
+   <package fileName="20230805-bxt-module-1891-windows.tar.gz" sha1="3180e4d154c5bd48002926652d9986a145651e38" type="module" repo="https://www.rc-astro.com/resources/BlurXTerminator/PixInsight/" releaseDate="20230805" installDate="20230729195651" title="BlurXTerminator Module Version 1.1.18">
+      <description>
+         <p>
+            This package installs version 1.1.18 of the BlurXTerminator process module and documentation. This update contains the following changes:
+            <ul><li>
+                  Corrects an issue that could cause over-darkening of shadow regions in certain images.
+               </li><li>
+                  Releases CPU/GPU memory consumed by the neural network after processing an image (note that the TensorFlow framework may still keep GPU memory allocated, but it will be available for other AI-powered processes).
+               </li></ul>
+            
+         </p>
+         <p>
+            Copyright 2023 RC Astro, LLC. All Rights Reserved. This software is subject to the
+            <a href="https://www.rc-astro.com/rc-astro-software-license-agreement/">
+               RC Astro Software License Agreement
+            </a>
+            .
+            <ul><li>
+                  Portions of this product are based on software from the PixInsight project, developed by Pleiades Astrophoto and its contributors. These portions are subject to the
+                  <a href="https://pixinsight.com/license/PCL_PJSR_1.0.html">
+                     PixInsight Class Library License
+                  </a>
+                  .
+               </li><li>
+                  Portions of this product are based on the libcurl library. These portions are subject to the
+                  <a href="https://curl.se/docs/copyright.html">
+                     curl/libcurl copyright notice.
+                  </a>
+               </li></ul>
+            
+         </p>
+      </description>
+   </package>
+   <package fileName="20230809-2-sxt-module-1891-windows.tar.gz" sha1="cda1e2174461432c7565f4906c61d753d8cbba90" type="module" repo="https://www.rc-astro.com/resources/StarXTerminator/PixInsight/" releaseDate="20230809" installDate="20230729195651" title="StarXTerminator Module Version 2.1.3 Update">
+      <description>
+         <p>
+            This package updates the StarXTerminator process module to version 2.1.3. This update includes the following chnages:
+            <ul><li>
+                  Compatibility updates for PixInsight 1.8.9-2
+               </li><li>
+                  New tiling algorithm to better handle the edges of images
+               </li><li>
+                  Internal processing is now 64-bit floating point for maximum precision
+               </li><li>
+                  MacOS-specific updates to enable 32-bit floating point neural network computations (requires MacOS 12 or later)
+               </li><li>
+                  Adjusted internal normalization algorithm to avoid clipping in shadow regions
+               </li><li>
+                  Fixed a Windows-specific issue that caused a ghost border to appear around the minimized (iconified) process window
+               </li><li>
+                  Updated process icon
+               </li></ul>
+            
+         </p>
+         <p>
+            Copyright 2023 RC Astro, LLC. All Rights Reserved. This software is subject to the
+            <a href="https://www.rc-astro.com/rc-astro-software-license-agreement/">
+               RC Astro Software License Agreement
+            </a>
+            .
+            <ul><li>
+                  Portions of this product are based on software from the PixInsight project, developed by Pleiades Astrophoto and its contributors. These portions are subject to the
+                  <a href="https://pixinsight.com/license/PCL_PJSR_1.0.html">
+                     PixInsight Class Library License
+                  </a>
+                  .
+               </li><li>
+                  Portions of this product are based on the libcurl library. These portions are subject to the
+                  <a href="https://curl.se/docs/copyright.html">
+                     curl/libcurl copyright notice.
+                  </a>
+               </li></ul>
+            
+         </p>
+      </description>
+   </package>
+   <package fileName="ghsmoduledoc20230711.tar.gz" sha1="dc3a2ccac711bc8e72c04bafdaba907f71690f30" type="doc" repo="https://www.ghsastro.co.uk/updates/" releaseDate="20230711" installDate="20230729195651" title="GeneralizedHyperbolicStretch PixInsight Module Documentation">
+      <description>
+         <p>
+            This package updates the documentation files for the GHS process module.
+         </p>
+         <p>
+            Copyright (c) 2022, 2023 Mike Cranfield, All Rights Reserved.
+         </p>
+      </description>
+   </package>
+   <package fileName="ghsScript20230711V020206.tar.gz" sha1="4d5c3a0a9b2882f2b40cf72d7a628fdfff713055" type="script" repo="https://www.ghsastro.co.uk/updates/" releaseDate="20230711" installDate="20230729195651" title="GeneralisedHyperbolicStretch PixInsight Script version 2.2.6">
+      <description>
+         <p>
+            This update installs the GeneralisedHyperbolicStretch script version 2.2.6 for PixInsight Core versions from 1.8.9-1.
+         </p>
+         <p>
+            Changes to accommodate changes in PixInsight 1.8.9-2
+         </p>
+         <p>
+            Copyright (c) 2021-2023 Mike Cranfield, All Rights Reserved.
+         </p>
+      </description>
+   </package>
+   <package fileName="ghsModuleWindows20230802v030004c1891.tar.gz" sha1="dbf6ff36dbde50b6aa1b7717d84374a7de8ed39e" type="module" repo="https://www.ghsastro.co.uk/updates/" releaseDate="20230802" installDate="20230729195651" title="GeneralisedHyperbolicStretch PixInsight Module Version 3.0.4">
+      <description>
+         <p>
+            This update installs the GeneralizedHyperbolicStretch module version 3.0.4
+         </p>
+         <p>
+            Readout corrected when Colour mode selected with Use RGB working space unchecked
+         </p>
+         <p>
+            Colour options disabled if track view enabled and active view is greyscale
+         </p>
+         <p>
+            Added Power Law stretch equations
+         </p>
+         <p>
+            Added button to control visibility of predicted post-stretch histogram
+         </p>
+         <p>
+            Copyright (c) 2022, 2023 Mike Cranfield, All Rights Reserved.
+         </p>
+      </description>
+   </package>
+</xri>
