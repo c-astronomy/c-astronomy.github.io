@@ -781,6 +781,7 @@ h2 {
   height: 200px;
   display: block;
   background: black;
+  background-position: center center;
   background-size: cover;
   -o-object-fit: fill;
      object-fit: fill;
