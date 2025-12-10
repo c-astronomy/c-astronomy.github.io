@@ -835,7 +835,7 @@ h2 {
 .square-4-col .square-item {
     /* Set width to ensure four columns with 40px gap */
     width: calc((100% - 120px) / 4) !important; 
-    height: 380px !important; /* Fixed height is fine for stacked video blocks */
+    /*height: 380px !important;*/ /* Fixed height is fine for stacked video blocks */
     /* Ensure the content inside (video/text) is a vertical stack */
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
