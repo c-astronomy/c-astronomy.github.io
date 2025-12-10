@@ -10,3 +10,46 @@
 @import './scss/banner';
 @import './scss/squares';
 @import './scss/gallery';
+
+/* --- ABSOLUTE FINAL FIX: TARGETING COLUMN WIDTHS ONLY --- */
+
+.square {
+  /* Ensure consistent gap and wrap */
+  gap: 40px; 
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+  display: flex !important;
+}
+
+/* --- 3-COLUMN LAYOUT (About me section) --- */
+.square-3-col .square-item {
+    /* (100% - 2 gaps of 40px) / 3 items */
+    width: calc((100% - 80px) / 3) !important; 
+    height: 300px !important;
+}
+
+/* --- 4-COLUMN LAYOUT (Video section) --- */
+.square-4-col {
+    .square-item {
+        /* (100% - 3 gaps of 40px) / 4 items */
+        width: calc((100% - 120px) / 4) !important; 
+        height: 380px !important;
+        flex-direction: column !important; /* Force stack for video block */
+    }
+}
+
+/* --- Mobile Overrides (Resets to 100% width) --- */
+@media (max-width: 1200px) {
+  .square-item {
+    width: 100% !important; 
+    margin-bottom: 20px !important;
+    height: auto !important; 
+    flex-direction: column !important;
+  }
+  
+  /* Reset the row-reverse order on mobile, as items should always be column stacked */
+  .square .square-item:nth-of-type(even) {
+    flex-direction: column !important;
+  }
+}
+/* --- END OF ABSOLUTE FINAL FIX --- */
