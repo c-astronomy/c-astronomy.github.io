@@ -1,4 +1,4 @@
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
@@ -227,7 +227,7 @@ fieldset {
    * 1. Correct the text wrapping in Edge and IE.
    * 2. Correct the color inheritance from `fieldset` elements in IE.
    * 3. Remove the padding so developers are not caught out when they zero out
-   *    `fieldset` elements in all browsers.
+   * `fieldset` elements in all browsers.
    */
 legend {
   -webkit-box-sizing: border-box;
@@ -460,9 +460,6 @@ html {
   height: 600px;
   width: 300px;
   background: green;
-  /* 
-    background: url('./assets/rosette.webp');
-    object-fit: scale-down; */
 }
 
 .ads-left {
@@ -674,12 +671,22 @@ h2 {
   }
 }
 
+/* Base style for the square container - essential for flex wrapping and height matching */
 .square {
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 40px;
+  flex-wrap: wrap;
+  gap: 0px;
   padding: 40px 0px;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  /* Ensure all items in a row stretch to the height of the tallest item */
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 }
 
 @media (max-width: 1200px) {
@@ -689,16 +696,21 @@ h2 {
   }
 }
 
+/* Base style for the square content item */
 .square .square-item {
   color: lightgrey;
-  height: 300px;
-  width: 100%;
+  height: auto; /* REMOVED FIXED HEIGHT to allow flex stretch */
+  min-height: 300px; /* Ensures minimum size for the image/text blocks */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
   text-align: center;
   background: black;
+  overflow: hidden; 
 }
 
 @media (max-width: 1200px) {
@@ -712,6 +724,7 @@ h2 {
   }
 }
 
+/* Alternating content direction */
 .square .square-item:nth-of-type(even) {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
@@ -728,34 +741,42 @@ h2 {
   }
 }
 
+/* Image/Video Block Styling (for items in 3-column section) */
 .square .square-item .thumbnail {
   display: block;
-  min-width: 48%;
-  width: 100%;
+  width: 40%; 
+  min-width: 40%; 
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
 }
 
 @media (max-width: 1200px) {
   .square .square-item .thumbnail {
     height: 300px;
+    width: 100%; 
+    min-width: 100%;
     -webkit-box-flex: 1;
         -ms-flex: auto;
             flex: auto;
   }
 }
 
+/* Text Block Styling (for items in 3-column section) */
 .square .square-item .description {
-  padding: 40px 80px;
-  height: auto;
+  padding: 40px 30px;
+  height: 100%;
+  width: 0%;
+  min-width: 40%;
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 auto;
-          flex: 0 1 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  /* Allows text to scroll if it exceeds the height determined by the tallest element in the row */
+  overflow-y: auto;
 }
 
 .gallery {
@@ -793,3 +814,79 @@ h2 {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+
+/* --- FINAL LAYOUT AND COLUMN OVERRIDES --- */
+
+/* 1. Define the exact widths for the 3-column section (About Me) */
+.square-3-col .square-item {
+    /* Set width to ensure three columns with 40px gap */
+    width: calc((100% - 80px) / 1) !important;
+    height: auto !important; /* FIX: Use auto height to allow flexbox stretching */
+    min-height: 300px !important;
+    /* Ensure the content inside (image/text) is a horizontal row */
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+}
+
+/* 2. Define the exact widths for the 4-column video section */
+.square-4-col .square-item {
+    /* Set width to ensure four columns with 40px gap */
+    width: calc((100% - 120px) / 4) !important; 
+    height: 380px !important; /* Fixed height is fine for stacked video blocks */
+    /* Ensure the content inside (video/text) is a vertical stack */
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+}
+
+/* 3. Ensure the video elements fill their space correctly in the 4-column blocks */
+.square-4-col .square-item iframe {
+    width: 100%;
+    height: 200px; 
+}
+.square-4-col .square-item .description {
+    /* Reset for video blocks: allow description to grow */
+    width: 100%;
+    height: auto;
+    overflow-y: hidden;
+    padding: 20px; /* Add some padding back to the video description */
+}
+
+/* 4. Mobile Override (back to 100% width and vertical stacking) */
+@media (max-width: 1200px) {
+  .square-3-col .square-item,
+  .square-4-col .square-item {
+    width: 100% !important; 
+    margin-bottom: 20px !important;
+    height: auto !important; 
+    /* Force all squares to stack content vertically on mobile */
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  
+  /* Reset the row-reverse order on mobile, as items should always be column stacked */
+  .square .square-item:nth-of-type(even) {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  
+  /* Ensure iframe is responsive on mobile */
+  .square-4-col .square-item iframe {
+    height: auto; 
+  }
+  
+  /* Restore original image/text widths on mobile */
+  .square .square-item .thumbnail,
+  .square .square-item .description {
+    width: 100%;
+    min-width: 100%;
+  }
+}
